@@ -6466,7 +6466,7 @@ function NoirUI:CreateLogger()
 
 			LogFrame:Destroy();
 		end))
-	end
+	end;
 
 	return Logging
 end;
