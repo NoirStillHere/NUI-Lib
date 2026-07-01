@@ -38,7 +38,7 @@ NoirUI is a modern, feature-rich GUI library for Roblox exploits. It's a rebrand
 
 ```lua
 -- Load NoirUI
-local Noir = loadstring(game:HttpGet("https://raw.githubusercontent.com/4lpaca-pin/CompKiller/main/CompKiller.lua"))()
+local Noir = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/NUI-Lib/refs/heads/main/src/NoirCK.lua"))()
 ```
 
 Note: You need to host the modified NoirUI code on your own server or paste it directly into your script.
@@ -48,7 +48,7 @@ Note: You need to host the modified NoirUI code on your own server or paste it d
 🏃 Quick Start
 
 ```lua
-local Noir = loadstring(game:HttpGet("your_noirui_url"))()
+local Noir = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/NUI-Lib/refs/heads/main/src/NoirCK.lua"))()
 
 -- Create window
 local Window = Noir.new({
@@ -463,7 +463,7 @@ Section:AddParagraph(Config) Add paragraph
 📝 Full Example
 
 ```lua
-local Noir = loadstring(game:HttpGet("your_noirui_url"))()
+local Noir = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/NUI-Lib/refs/heads/main/src/NoirCK.lua"))()
 
 -- Detect mobile
 local UserInputService = game:GetService("UserInputService")
